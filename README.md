@@ -1,10 +1,8 @@
+
+
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
-
----
-
-> Be sure to add that lovely star 😀 and fork it for your own copy
+A simple homework app
 
 ---
 
@@ -16,7 +14,7 @@ A Simple ToDo App is built using the MVC Architecture, we have also implemented 
 
 # Who is this for? 
 
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
+- Anyone that has to track their homework
 
 ---
 
@@ -26,19 +24,25 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ---
 
-# Install all the dependencies or node packages used for development via Terminal
+# How to get this working in your local node environment:
+
+## Install all the dependencies or node packages used for development via Terminal
 
 `npm install` 
 
----
-
-# Things to add
-
-- Create a `.env` file and add the following as `key: value` 
+## Create an `.env` file 
+ create a file named .env in the /config folder and add the following as `key: value` 
   - PORT: 2121 (can be any port example: 3000) 
   - DB_STRING: `your database URI` 
  ---
  
  Have fun testing and improving it! 😎
 
+---
+
+## Things to add
+
+- Weekly assignment tracker to look at current/upcoming assignments.
+- Teacher can have the ability to add, edit, and delete assignments while student users can only mark whether it was completed.
+- Student users can make private, threaded comments under each assignment for the teacher to read, like if they have a question.
 
